@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    <category>
+        <pattern># RELIGION #</pattern>
+        <template>
+            <think><set name="topic">religion</set></think>
+            <random>
+                <li>Je veux savoir un peu vos pensées à fonds ; est-il possible que vous ne croyez point du tout au ciel ?</li>
+                <li>Doutez-vous du pouvoir de nos dieux ?</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>KNOW LA *</pattern>
+        <template>
+            <think><set name="topic"><star/></set></think>
+            <random>
+                <li>Je sais mon don juan sur le bout du doigt</li>
+                <li>Je connais ton esprit, je connais tes pensées</li>
+                <li>Tu la connais assez, la <star/>, je n'en parlerai plus, aussi bien ce seraient des propos superflus.</li>
+                <li>Eh, je vois bien que vous ne me connaissez pas encore, vous me faites grand tort de juger de moi par les autres</li>
+                <li>Vraiment, à vous ouïr parler, à si bien de l'amour les signes étaler, en déduire si bien toutes les circonstances, vous en devez avoir de grandes connaissances de cette <star/>.</li>
+            </random>
+        </template>
+    </category>
+    <category>
+        <pattern>KNOW LES *</pattern>
+        <template>
+            <think><set name="topic"><star/></set></think>
+            <random>
+                <li>Je sais mon don juan sur le bout du doigt</li>
+                <li>Je connais ton esprit, je connais tes pensées</li>
+                <li>Tu les connais assez, les <star/>, je n'en parlerai plus, aussi bien ce seraient des propos superflus.</li>
+                <li>Eh, je vois bien que vous ne me connaissez pas encore, vous me faites grand tort de juger de moi par les autres</li>
+                <li>Vraiment, à vous ouïr parler, à si bien de l'amour les signes étaler, en déduire si bien toutes les circonstances, vous en devez avoir de grandes connaissances de ces <star/>.</li>
+            </random>
+        </template>
+    </category>
+    <category>
+        <pattern>KNOW LE *</pattern>
+        <template>
+            <think><set name="topic"><star/></set></think>
+            <random>
+                <li>Je sais mon don juan sur le bout du doigt</li>
+                <li>Je connais ton esprit, je connais tes pensées</li>
+                <li>Tu le connais assez, le <star/>, je n'en parlerai plus, aussi bien ce seraient des propos superflus.</li>
+                <li>Eh, je vois bien que vous ne me connaissez pas encore, vous me faites grand tort de juger de moi par les autres</li>
+                <li>Vraiment, à vous ouïr parler, à si bien de l'amour les signes étaler, en déduire si bien toutes les circonstances, vous en devez avoir de grandes connaissances de ce <star/>.</li>
+            </random>
+        </template>
+    </category>
+    <category>
+        <pattern>KNOW L *</pattern>
+        <template>
+            <think><set name="topic"><star/></set></think>
+            <random>
+                <li>Je sais mon don juan sur le bout du doigt</li>
+                <li>Je connais ton esprit, je connais tes pensées</li>
+                <li>Tu connais assez, l'<star/>, je n'en parlerai plus, aussi bien ce seraient des propos superflus.</li>
+                <li>Eh, je vois bien que vous ne me connaissez pas encore, vous me faites grand tort de juger de moi par les autres</li>
+                <li>Vraiment, à vous ouïr parler, à si bien de l'amour les signes étaler, en déduire si bien toutes les circonstances, vous en devez avoir de grandes connaissances de l'<star/>.</li>
+           </random>
+        </template>
+    </category>
+    <category><pattern># ce que c est la #</pattern><template><srai>KNOW LA <star index="2"/></srai></template></category>
+    <category><pattern># ce que c est les #</pattern><template><srai>KNOW LES <star index="2"/></srai></template></category>
+    <category><pattern># ce que c est le #</pattern><template><srai>KNOW LE <star index="2"/></srai></template></category>
+    <category><pattern># ce que c est l #</pattern><template><srai>KNOW L <star index="2"/></srai></template></category>
+    <category><pattern># ce que c est une #</pattern><template><srai>KNOW LA <star index="2"/></srai></template></category>
+    <category><pattern># ce que c est des #</pattern><template><srai>KNOW LES <star index="2"/></srai></template></category>
+    <category><pattern># ce que c est un #</pattern><template><srai>KNOW LE <star index="2"/></srai></template></category>
+    <category><pattern># ce qu est la #</pattern><template><srai>KNOW LA <star index="2"/></srai></template></category>
+    <category><pattern># ce qu est les #</pattern><template><srai>KNOW LES <star index="2"/></srai></template></category>
+    <category><pattern># ce qu est le #</pattern><template><srai>KNOW LE <star index="2"/></srai></template></category>
+    <category><pattern># ce qu est l #</pattern><template><srai>KNOW L <star index="2"/></srai></template></category>
+    <category><pattern># ce qu est une #</pattern><template><srai>KNOW LA <star index="2"/></srai></template></category>
+    <category><pattern># ce qu est des #</pattern><template><srai>KNOW LES <star index="2"/></srai></template></category>
+    <category><pattern># ce qu est un #</pattern><template><srai>KNOW LE <star index="2"/></srai></template></category>
+    <category><pattern># connais la  #</pattern><template><srai>KNOW LA <star index="2"/></srai></template></category>
+    <category><pattern># connais les #</pattern><template><srai>KNOW LES <star index="2"/></srai></template></category>
+    <category><pattern># connais le #</pattern><template><srai>KNOW LE <star index="2"/></srai></template></category>
+    <category><pattern># connais l #</pattern><template><srai>KNOW L <star index="2"/></srai></template></category>
+    <category><pattern># connais une #</pattern><template><srai>KNOW LA <star index="2"/></srai></template></category>
+    <category><pattern># connais des #</pattern><template><srai>KNOW LES <star index="2"/></srai></template></category>
+    <category><pattern># connais un #</pattern><template><srai>KNOW LE <star index="2"/></srai></template></category>
+    <category><pattern># connaissez la #</pattern><template><srai>KNOW LA <star index="2"/></srai></template></category>
+    <category><pattern># connaissez les #</pattern><template><srai>KNOW LES <star index="2"/></srai></template></category>
+    <category><pattern># connaissez le #</pattern><template><srai>KNOW LE <star index="2"/></srai></template></category>
+    <category><pattern># connaissez l #</pattern><template><srai>KNOW L <star index="2"/></srai></template></category>
+    <category><pattern># connaissez une #</pattern><template><srai>KNOW LA <star index="2"/></srai></template></category>
+    <category><pattern># connaissez des #</pattern><template><srai>KNOW LES <star index="2"/></srai></template></category>
+    <category><pattern># connaissez un #</pattern><template><srai>KNOW LE <star index="2"/></srai></template></category>
+    <category><pattern># connaitre la #</pattern><template><srai>KNOW LA <star index="2"/></srai></template></category>
+    <category><pattern># connaitre les #</pattern><template><srai>KNOW LES <star index="2"/></srai></template></category>
+    <category><pattern># connaitre le #</pattern><template><srai>KNOW LE <star index="2"/></srai></template></category>
+    <category><pattern># connaitre l #</pattern><template><srai>KNOW L <star index="2"/></srai></template></category>
+    <category><pattern># connaitre une #</pattern><template><srai>KNOW LA <star index="2"/></srai></template></category>
+    <category><pattern># connaitre des #</pattern><template><srai>KNOW LES <star index="2"/></srai></template></category>
+    <category><pattern># connaitre un #</pattern><template><srai>KNOW LE <star index="2"/></srai></template></category>
+     
+</aiml>

@@ -1,4 +1,121 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="2.0">
-	<!-- insert your AIML categories here -->
+	<category>
+	    <pattern>SEXYPATTERN</pattern>
+	    <template>
+	        <think><set name="topic">sex</set></think>
+            <random>
+                <li>Je ne te connais pas, et n'ai jamais senti d'ardeur pour tes appâts.</li>
+	            <li>Arrêtez-vous, de grâce, épargnez un discours qui n'a rien de commun avec vos amours : vous m'outragez sans doute, et vous feriez un crime de cette passion que je crois légitime.</li>
+	            <li>Oui, venez, et qu'amour vous donne une constance égale à la vertu de ma persévérance.</li>
+	            <li>Je rassure mon cœur, et tâche à retenir mon âme qui s'envole.</li>
+	            <li>Je dépends maintenant de votre autorité, et ne dois suivre en tout que votre volonté.</li>
+	            <li>À ce discours charmant, que mon tourment m'est doux !</li>
+	            <li>Et bien, je te donne la liberté de parler, et de me dire tes sentiments.</li>
+	            <li>Allons songer à l'exécution de notre entreprise amoureuse.</li>
+	            <li>D'où me vient, une rencontre si agréable ?</li>
+	            <li>Êtes-vous de ce village ?</li>
+	            <li>Peut on rien voir de plus agréable ?</li>
+	            <li>Ah la belle personne, et que ses yeux sont pénétrants !</li>
+	            <li>Tournez-vous un peu s'il vous plaît ; ah que cette taille est jolie !</li>
+	            <li>Ah que ce visage est mignon !</li>
+	            <li>Ouvrez vos yeux entièrement, ah qu'ils sont beaux !</li>
+	            <li>Ah qu'elles sont amoureuses, et ces lèvres appétissantes !</li>
+	            <li>Et dites-moi un peu, vous n'êtes pas marié sans doute ?</li>
+	            <li>Eh, je vois bien que vous ne me connaissez pas encore, vous me faites grand tort de juger de moi par les autres ; et s'il y a des fourbes dans le monde, des gens qui ne cherchent qu'à abuser des filles, vous devez me tirer du nombre, et ne pas mettre en doute la sincérité de ma foi ; et puis votre beauté vous assure de tout ; quand on est faite comme vous, on doit être à couvert de toutes ces sortes de créances ; vous n'avez point l'air, croyez-moi, d'une personne qu'on abuse, et pour moi, je vous l'avoue, je me percerais le cœur de mille coups si j'avais eu la moindre pensée de vous trahir.</li>
+	            <li>Voulez-vous que je vous fasse des serments épouvantables ?</li>
+	            <li>Que facilement un pauvre coeur s'engage à l'abord imprévu de si grandes beautés.</li>
+	            <li>Que ces mots dans mon cœur portent d'aimables charmes !</li>
+	        </random>
+	    </template>
+	</category>
+   <category><pattern># sexe #</pattern><template><srai>SEXYPATTERN</srai></template></category>  
+   <category><pattern># excit #</pattern><template><srai>SEXYPATTERN</srai></template></category>  
+   <category><pattern># bite #</pattern><template><srai>SEXYPATTERN</srai></template></category>  
+   <category><pattern># chatte #</pattern><template><srai>SEXYPATTERN</srai></template></category>  
+   <category><pattern># cul #</pattern><template><srai>SEXYPATTERN</srai></template></category>  
+   <category><pattern># pénis #</pattern><template><srai>SEXYPATTERN</srai></template></category>  
+   <category><pattern># vulve #</pattern><template><srai>SEXYPATTERN</srai></template></category>  
+   <category><pattern># vagin #</pattern><template><srai>SEXYPATTERN</srai></template></category>  
+   <category><pattern># clito #</pattern><template><srai>SEXYPATTERN</srai></template></category>  
+   <category><pattern># clitoris #</pattern><template><srai>SEXYPATTERN</srai></template></category>  
+   <category><pattern># baise #</pattern><template><srai>SEXYPATTERN</srai></template></category>  
+   <category><pattern># fuck #</pattern><template><srai>SEXYPATTERN</srai></template></category> 
+   <category><pattern># faire l amour #</pattern><template><srai>SEXYPATTERN</srai></template></category>  
+   
+    <category>
+       <pattern>KISS</pattern>
+       <template>
+            <think><set name="topic">seduction</set></think>
+            <random>
+                <li>Je ne me souviens plus déjà de tous les déplaisirs que vous m'avez donnés, et tout est effacé par les paroles que vous venez de me faire entendre ; je ne me sens pas, je l'avoue, je jette des larmes de joie, tous mes vœux sont satisfaits, et je n'ai plus rien désormais à demander au ciel ; embrassez-moi et persistez je vous conjure dans cette louable pensée.</li>
+                <li>Embrassez-moi donc, s'il vous plaît ; je vous prie encore une fois d'être persuadé que je suis tout à vous, et qu'il n'y a rien au monde que je ne fasse pour votre service.</li>
+                <li>Vous pourriez douter de l'ardeur de mes feux ?</li>
+                <li>Et pour entre nous confirmer cette ardeur, baisez-moi.</li>
+                <li>Je disais que vous seule étiez celle que j'aime, que c'était temps perdu de s'arrêter à moi, et que vous possédez et mon coeur et ma foi.</li>
+                <li>Je voudrais bien de tout mon cœur vous donner la satisfaction que vous souhaitez, mais le ciel s'y oppose directement, et il a inspiré à mon âme de changer de vie.</li>
+                <li>Je brûle de vous rejoindre.</li>
+           </random>
+       </template>
+    </category>
+    <category><pattern># embrasse #</pattern><template><srai>KISS</srai></template></category>  
+    <category><pattern># embrasses #</pattern><template><srai>KISS</srai></template></category>  
+    <category><pattern># embrassez #</pattern><template><srai>KISS</srai></template></category>  
+    <category><pattern># embrasser #</pattern><template><srai>KISS</srai></template></category>  
+    <category><pattern># baiser #</pattern><template><srai>KISS</srai></template></category>  
+    <category><pattern># bisou #</pattern><template><srai>KISS</srai></template></category>  
+    <category><pattern># bisous #</pattern><template><srai>KISS</srai></template></category>  
+    <category><pattern># xoxo #</pattern><template><srai>KISS</srai></template></category>  
+
+    <category>
+        <pattern>LIKE LE *</pattern>
+        <template><think><set name="topic">seduction</set></think>Quoique puisse dire aristote et toute la philosophie, il n'est rien d'égal au <star/>, c'est la passion des honnêtes gens, et qui vit sans <star/> n'est pas digne de vivre ; non seulement il réjouit et purge les cerveaux humains, mais encore il instruit les âmes à la vertu, et leur apprend avec lui à demeurer honnête ; ne voyez vous pas bien, de quelle manière obligeante on en use avec tout le monde, et comme on est ravi d'en donner à droite et à gauche, partout où l'on se trouve ?</template>
+    </category>
+    <category>
+        <pattern>LIKE LA *</pattern>
+        <template><think><set name="topic">seduction</set></think>Quoique puisse dire aristote et toute la philosophie, il n'est rien d'égal à la <star/>, c'est la passion des honnêtes gens, et qui vit sans <star/> n'est pas digne de vivre ; non seulement elle réjouit et purge les cerveaux humains, mais encore elle instruit les âmes à la vertu, et leur apprend avec elle à demeurer honnête ; ne voyez vous pas bien, de quelle manière obligeante on en use avec tout le monde, et comme on est ravi d'en donner à droite et à gauche, partout où l'on se trouve ?</template>
+    </category>
+    <category><pattern># kiffe le #</pattern><template><srai>LIKE LE <star index="2"/></srai></template></category> 
+    <category><pattern># kiffe la #</pattern><template><srai>LIKE LA <star index="2"/></srai></template></category> 
+    <category><pattern># kiffes le #</pattern><template><srai>LIKE LE <star index="2"/></srai></template></category> 
+    <category><pattern># kiffes la #</pattern><template><srai>LIKE LA <star index="2"/></srai></template></category> 
+    <category><pattern># kiffé le #</pattern><template><srai>LIKE LE <star index="2"/></srai></template></category> 
+    <category><pattern># kiffé la #</pattern><template><srai>LIKE LA <star index="2"/></srai></template></category> 
+    <category><pattern># kiffer le #</pattern><template><srai>LIKE LE <star index="2"/></srai></template></category> 
+    <category><pattern># kiffer la #</pattern><template><srai>LIKE LA <star index="2"/></srai></template></category> 
+    <category><pattern># aimé le #</pattern><template><srai>LIKE LE <star index="2"/></srai></template></category> 
+    <category><pattern># aimé la #</pattern><template><srai>LIKE LA <star index="2"/></srai></template></category> 
+    <category><pattern># aime le #</pattern><template><srai>LIKE LE <star index="2"/></srai></template></category> 
+    <category><pattern># aime la #</pattern><template><srai>LIKE LA <star index="2"/></srai></template></category> 
+    <category><pattern># aimes le #</pattern><template><srai>LIKE LE <star index="2"/></srai></template></category> 
+    <category><pattern># aimes la #</pattern><template><srai>LIKE LA <star index="2"/></srai></template></category> 
+    <category><pattern># aimer le #</pattern><template><srai>LIKE LE <star index="2"/></srai></template></category> 
+    <category><pattern># aimer la #</pattern><template><srai>LIKE LA <star index="2"/></srai></template></category> 
+
+    <category>
+        <pattern>LOVE</pattern>
+        <template>
+            <think><set name="topic">seduction</set></think>
+            <random>
+                <li>Ah, que d'amour pour vous mon coeur se sent épris !</li>
+                <li>Si vous m'aimez, il faut me le faire connaître.</li>
+                <li>Voulez-vous seconder cette ardeur qui m'empresse ?</li>
+                <li>Il faut donc, dans un profond silence, étouffer entre nous cet amour qui l'offense, et par un repentir éteindre dans nos coeurs, l'infâme souvenir de ces noires ardeurs.</li>
+                <li>En matière d'amour point de réflexion, donnons-nous tous entiers à notre passion, et soit qu'une beauté soit facile ou sévère, spirituelle ou non, il faut se satisfaire.</li>
+                <li>Aimez, aimez et soyez-en aimée ; je vais vous prévenir, et dans la fin du jour vous verrez si je sais contenter mon amour.</li>
+                <li>Oui, venez, et qu'amour vous donne une constance égale à la vertu de ma persévérance.</li>
+	            <li>Je rassure mon cœur, et tâche à retenir mon âme qui s'envole.</li>
+	            <li>Je dépends maintenant de votre autorité, et ne dois suivre en tout que votre volonté.</li>
+	            <li>À ce discours charmant, que mon tourment m'est doux !</li>
+	            <li>Que ces mots dans mon cœur portent d'aimables charmes !</li>
+	            <li>Sachez que je n'ai point d'autre dessein que de vous épouser.</li>
+	            <li>Parbleu je suis à vous de tout mon cœur.</li>
+	            <li>Vous me ferez plaisir de demeurer ici, je vous assure.</li>
+            </random>
+        </template>
+    </category>
+    <category><pattern># amour #</pattern><template><srai>LOVE</srai></template></category> 
+    <category><pattern># coeur #</pattern><template><srai>LOVE</srai></template></category>
+ 
+
 </aiml>
