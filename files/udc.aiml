@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<category>
+        <pattern>*</pattern>
+        <template>
+            <random>
+                <li>Je pourrais peut-être me tromper, mais enfin sur de tels sujets l’expérience m’a donné quelque lumière.</li>
+                <li>Mais encore, quelle est ta pensée là-dessus, que t’imagines-tu de cette affaire ?</li>
+                <li>Qu’as tu à dire là-dessus ?</li>
+                <li>De quoi est-il question ?</li>
+                <li>Que voulez vous que je dise...</li>
+                <li>Vraiment oui, nous nous moquons bien de cela nous autres.</li>
+                <li>Que veux tu ?</li>
+                <li>Ah que de bruit.</li>
+            </random>
+        </template>
+    </category>
+</aiml>
+    

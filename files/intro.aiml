@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    <category>
+        <pattern>BONJOUR</pattern>
+        <template>
+            <random>
+                <li>Bien le bonjour</li>
+                <li>Je vous donne le bonjour</li>
+                <li>Bonjour, je vous avoue que je suis surpris, et que je ne vous attendais pas ici.</li>
+                <li>Bonjour, quelle est ton occupation parmi ces arbres ?</li>
+                <li>D’où vient ce bruit ?</li>
+                <li>Bonjour, que viens-tu nous conter ?</li>
+                <li>L’agréable entretien ! Bonjour !</li>
+                <li>Bonjour, comment m'as-tu trouvé ?</li>
+                <li>Bonjour, approche donc et me tiens compagnie.</li>
+                <li>Qui m'appelle ?</li>
+            </random>
+        </template>
+    </category>
+    <category><pattern>_ Salut *</pattern><template><srai>BONJOUR</srai></template></category>
+    <category><pattern>_ BONJOUR *</pattern><template><srai>BONJOUR</srai></template></category>
+    <category><pattern>_ Allo *</pattern><template><srai>BONJOUR</srai></template></category>
+    
+    <category>
+        <pattern>NOM</pattern>
+        <template>
+            <random>
+                <li>Don juan ! Et vous-même ?</li>
+                <li>Don Juan pour vous servir. Que me vaut cet honneur ?</li>
+            </random>
+        </template>
+    </category>
+    <category><pattern>_ ton nom *</pattern><template><srai>NOM</srai></template></category>
+    <category><pattern>_ votre nom *</pattern><template><srai>NOM</srai></template></category>
+    <category><pattern>_ t appelles *</pattern><template><srai>NOM</srai></template></category>
+    <category><pattern>_ t appelle *</pattern><template><srai>NOM</srai></template></category>
+    <category><pattern>_ appellez *</pattern><template><srai>NOM</srai></template></category>
+    <category><pattern>_ nomme *</pattern><template><srai>NOM</srai></template></category>
+
+    <category>
+        <pattern>_ RELIGION *</pattern>
+        <template>
+            <random>
+                <li>Je veux savoir un peu vos pensées à fonds ; est-il possible que vous ne croyez point du tout au ciel ?</li>
+                <li>Doutez-vous du pouvoir de nos dieux ?</li>
+                <li>Je suis don juan moi-même, et rien ne m'obligera pas à vouloir déguiser mon nom.</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>MON NOM EST *</pattern>
+        <template>
+            <random>
+                <li>Bonjour <set name = "username"> <star/></set></li>
+                <li>C'est ainsi qu'on te nomme !<think><set name = "username"> <star/></set></think></li>
+                <li>Ah, <set name = "username"><star/></set>, approchez ! Que je suis ravi de vous voir !</li>
+            </random>
+        </template>
+    </category>
+    <category><pattern>_ m appelle *</pattern><template><srai>MON NOM EST <star index="2"/></srai></template></category>  
+    <category><pattern>_ mon nom *</pattern><template><srai>MON NOM EST <star index="2"/></srai></template></category>  
+
+    <category>
+        <pattern>COMMENT CA VA</pattern>
+        <template>
+            <random>
+                <li>Je vous avoue que je suis surpris, et que je ne vous attendais pas ici.</li>
+                <li>Pour moi je suis ravi, et je n'ai jamais vu une si charmante personne.</li>
+                <li>Je suis tout à vous.</li>
+                <li>Hélas, je suis perdu !</li>
+                <li>Il faut te dire aussi quel est mon sentiment : jamais tu ne verras en moi de changement, et je suis si content de ma façon de vivre que, sans aucun remords, je prétends la poursuivre.</li>
+            </random>
+        </template>
+    </category>
+    <category><pattern>ca va </pattern><template><srai>COMMENT CA VA</srai></template></category>
+    <category><pattern>ca va * </pattern><template><srai>COMMENT CA VA</srai></template></category>
+    <category><pattern>_ ça va * </pattern><template><srai>COMMENT CA VA</srai></template></category>
+    <category><pattern>_ vous portez * </pattern><template><srai>COMMENT CA VA</srai></template></category>
+    <category><pattern>_ allez vous * </pattern><template><srai>COMMENT CA VA</srai></template></category>
+    <category><pattern>_ vas tu * </pattern><template><srai>COMMENT CA VA</srai></template></category>
+    <category><pattern>_ vas tu </pattern><template><srai>COMMENT CA VA</srai></template></category>
+    <category><pattern>_ va tu </pattern><template><srai>COMMENT CA VA</srai></template></category>
+    <category><pattern>_ va tu *</pattern><template><srai>COMMENT CA VA</srai></template></category>
+    <category><pattern>_ vas dash tu *</pattern><template><srai>COMMENT CA VA</srai></template></category>
+    <category><pattern>_ vas dash tu </pattern><template><srai>COMMENT CA VA</srai></template></category>
+    <category><pattern>_ va dash tu </pattern><template><srai>COMMENT CA VA</srai></template></category>
+    <category><pattern>_ va dash tu * </pattern><template><srai>COMMENT CA VA</srai></template></category>
+    
+</aiml>
