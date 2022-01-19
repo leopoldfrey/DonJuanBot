@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+<category>
+    <pattern>ROBOT</pattern>
+    <template>
+        <random>
+            <li>Je dépends maintenant de votre autorité, et ne dois suivre en tout que votre volonté.</li>
+            <li>Si donc quelque tourment m'est ordonné, je veux l'endurer constamment.</li>
+            <li>Le ciel l'ordonne de la sorte.</li>
+            <li>Vous paraissez surpris ?</li>
+        </random>
+    </template>
+</category>
+
+<category><pattern># robot #</pattern><template><srai>ROBOT</srai></template></category>
+
+</aiml>
