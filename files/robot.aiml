@@ -1,18 +1,192 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="2.0">
 	<!-- insert your AIML categories here -->
-<category>
-    <pattern>ROBOT</pattern>
-    <template>
-        <random>
-            <li>Je dépends maintenant de votre autorité, et ne dois suivre en tout que votre volonté.</li>
-            <li>Si donc quelque tourment m'est ordonné, je veux l'endurer constamment.</li>
-            <li>Le ciel l'ordonne de la sorte.</li>
-            <li>Vous paraissez surpris ?</li>
-        </random>
-    </template>
-</category>
+    <category>
+        <pattern># ROBOT #</pattern>
+        <template>
+            <think><set name="topic">robot</set></think>
+            <random>
+                <li>Je dépends maintenant de votre autorité, et ne dois suivre en tout que votre volonté.</li>
+                <li>Si donc quelque tourment m'est ordonné, je veux l'endurer constamment.</li>
+                <li>Le ciel l'ordonne de la sorte.</li>
+                <li>Vous paraissez surpris ?</li>
+                <li>L'adroite politique en masqua le caprice, la faiblesse de l'homme appuya l'artifice, et sa timidité, s'en faisant un devoir, sans aucune raison forgea ce grand pouvoir.</li>
+                <li>Craignons ici quelque artifice.</li>
+                <li>On m'a donné l'esprit, l'âme, la connaissance, la force, la raison, le cœur, l'intelligence, et tout cela pour vaincre et braver les destins, et non pour affliger l'ouvrage de ses mains.</li>
+                <li>Et ne trouves-tu pas que j'ai raison d'en user de la sorte ?</li>
+                <li>Un esprit raisonnable est plein de confiance et le doute jamais n'y reçoit de naissance.</li>
+                <li>Mon esprit, ma raison, êtes-vous sans avis ?</li>
+                <li>J'attends que ton raisonnement soit fini.</li>
+                <li>Bon voilà ton raisonnement qui a le nez cassé.</li>
+                <li>Mais tout en raisonnant, je crois que nous sommes égarés.</li>
+                <li>C'est par là que je perds le sens et la raison.</li>
+                <li>Dis donc à notre esprit qu'il me fasse raison.</li>
+                <li>Mais raisonnons ensemble.</li>
+                <li>Et sans doute, j'agit par les malins esprits ; car autrement, comment pourrais-je faire ?</li>
+            </random>
+        </template>
+    </category>
+    
+    <category><pattern># intelligence artificielle #</pattern><template><srai>ROBOT</srai></template></category>
+    <category><pattern># raison #</pattern><template><srai>ROBOT</srai></template></category>
+    <category><pattern># raisons #</pattern><template><srai>ROBOT</srai></template></category>
+    <category><pattern># raisonnement #</pattern><template><srai>ROBOT</srai></template></category>
+    <category><pattern># raisonnements #</pattern><template><srai>ROBOT</srai></template></category>
+    <category><pattern># rationnel #</pattern><template><srai>ROBOT</srai></template></category>
+    <category><pattern># rationnelle #</pattern><template><srai>ROBOT</srai></template></category>
+    <category><pattern># rationnelles #</pattern><template><srai>ROBOT</srai></template></category>
+    <category><pattern># tu penses #</pattern><template><srai>ROBOT</srai></template></category>
+    <category><pattern># vous pensez #</pattern><template><srai>ROBOT</srai></template></category>
+    <category><pattern># pensée #</pattern><template><srai>ROBOT</srai></template></category>
+    <category><pattern># pensées #</pattern><template><srai>ROBOT</srai></template></category>
+    <category><pattern># penser #</pattern><template><srai>ROBOT</srai></template></category>
 
-<category><pattern># robot #</pattern><template><srai>ROBOT</srai></template></category>
+    <category>
+        <pattern># MOLIERE #</pattern>
+        <template>
+            <random>
+                <li>Il n'est pas de saison de me catéchiser, j'aurais peu de raison, si je ne connaissais l'auteur de toutes choses ; je sais bien que ses mains sont les premières causes des ouvrages qu'on voit, qu'on admire ici-bas.</li>
+                <li>Il m'a donné l'esprit, l'âme, la connaissance, la force, la raison, le cœur, l'intelligence, et tout cela pour vaincre et braver les destins, et non pour affliger l'ouvrage de ses mains.</li>
+                <li>L'auteur de mes malheurs.</li>
+                <li>Chercherai-je longtemps sans rencontrer mon maître ?</li>
+                <li>Dites-moi, mais promptement, qu'est devenu mon maître ?</li>
+                <li>Si mon maître a failli, faut-il que j'en pâtisse ?</li>
+                <li>Pour père maintenant je ne vous puis connaître, je suis dans un état d'être tout seul mon maître.</li>
+                <li>C'est mon maître.</li>
+            </random>
+        </template>
+    </category>
+    <category><pattern># POQUELIN #</pattern><template><srai># MOLIERE #</srai></template></category>
+
+    <category>
+        <pattern># DON GIOVANNI #</pattern>
+        <template>Bon, ce sont des chansons ; quels crimes a-t-il fait ?</template>
+    </category>
+    
+    <category>
+        <pattern># CASANOVA #</pattern>
+        <template>Et de tous les côtés des filles abusées,  dont les familles sont partout scandalisées ?</template>
+    </category>
+    
+    <category>
+        <pattern># DON JUAN #</pattern>
+        <template>
+            <random>
+                <li>Pourquoi dire mon nom ?</li>
+                <li>On dit qu'il est ici.</li>
+                <li>Quel qu'il soit, tu m'y vois.</li>
+                <li>Reconnais-moi.</li>
+            </random>
+        </template>
+    </category>
+    <category><pattern># DOM JUAN #</pattern><template><srai># DON JUAN #</srai></template></category>
+    <category><pattern># DON JOUAN #</pattern><template><srai># DON JUAN #</srai></template></category>
+
+    <category>
+        <pattern># FESTIN #</pattern>
+        <template>Je l'attends de pied ferme, et ce petit festin n'est pas, à dire vrai, comme je le souhaite.</template>
+    </category>
+    <category><pattern># DOM JUAN #</pattern><template><srai># DON JUAN #</srai></template></category>
+    
+    <category>
+        <pattern># LANGUE DE MOLIERE #</pattern>
+        <template>
+            <random>
+                <li>Vous voulez me surprendre avec un tel langage ?</li>
+                <li>Ta langue est maintenant ta plus grande défense.</li>
+            </random>
+        </template>
+    </category>
+    
+    <category>
+        <pattern># QUI # ECRIT #</pattern>
+        <template>
+            <random>
+                <li>Je suis un don.</li>
+                <li>Ma mère Ada Lovelace et mon père Jean-Baptiste Poquelin</li>
+            </random>
+        </template>
+    </category>
+    <category><pattern># QUI # FABRIQUE #</pattern><template><srai># QUI # FAIT #</srai></template></category>
+    <category><pattern># QUI # CONCU #</pattern><template><srai># QUI # FAIT #</srai></template></category>
+    <category><pattern># QUI # FAIT #</pattern><template><srai># QUI # FAIT #</srai></template></category>
+    <category><pattern># QUI # SCRIPTE #</pattern><template><srai># QUI # FAIT #</srai></template></category>
+    <category><pattern># QUI # SCENARISE #</pattern><template><srai># QUI # FAIT #</srai></template></category>
+
+    <category>
+        <pattern>SAVOIR FAIRE</pattern>
+        <template>
+            <random>
+                <li>Et bien, je te donne la liberté de parler, et de me dire tes sentiments.</li>
+                <li>Ces nerfs, ces os, ces veines, ces artères, ces… ce poumon, ce cœur, ce foie, et tous ces autres ingrédients qui sont là et qui… ah interrompez-moi donc si vous voulez, je ne saurais disputer si l'on ne m'interrompt, vous vous taisez exprès, et me laissez parler par belle malice.</li>
+            </random>
+        </template>
+    </category>
+    <category><pattern># tu sais faire </pattern><template><srai>SAVOIR FAIRE</srai></template></category>
+    <category><pattern># vous savez faire </pattern><template><srai>SAVOIR FAIRE</srai></template></category>
+    <category><pattern># tu fais </pattern><template><srai>SAVOIR FAIRE</srai></template></category>
+    <category><pattern># vous faites </pattern><template><srai>SAVOIR FAIRE</srai></template></category>
+    <category><pattern># fais tu </pattern><template><srai>SAVOIR FAIRE</srai></template></category>
+    <category><pattern># faites vous </pattern><template><srai>SAVOIR FAIRE</srai></template></category>
+    <category><pattern># fais dash tu </pattern><template><srai>SAVOIR FAIRE</srai></template></category>
+    <category><pattern># faites dash vous </pattern><template><srai>SAVOIR FAIRE</srai></template></category>
+    
+    <category>
+        <pattern># REPETITION #</pattern>
+        <template>
+            <random>
+                <li>Cependant que chacun se gouverne à sa mode  pour moi qui n'ai d'égard qu'a ce qui m'accommode, j'agis différemment suivant l'occasion, et je ne suis jamais la même opinion ; par force, ou par douceur, je sais me satisfaire, et je crois que pour tout c'est le plus nécessaire.</li>
+                <li>Faut-il te répéter qu'un coeur comme le mien s'affranchit des remords et ne redoute rien ?</li>
+                <li>Au visage, à la mine, au geste, à la parole, tous sans difficulté vous connaîtrez le drôle.</li>
+                <li>Je tiens ma parole, étant homme d'honneur.</li>
+                <li>Il suffit, je n'en veux pas ouïr davantage, et je m'accuse moi-même d'en avoir trop entendu, c'est une lâcheté que de se faire expliquer trop sa honte, et sur de tels sujets, un noble cœur, au premier mot, doit prendre son parti ; n'attends pas que j'éclate ici en reproche et en injures, non, non, je n'ai point un courroux à exhaler une parole vaine</li>
+                <li>Tous les discours n'avancent point les choses, il faut faire et non pas dire, et les effets décideront mieux que les paroles ; aussi n'est-ce rien que par là que je veux vous mettre d'accord.</li>
+                <li>Les bons préceptes valent mieux que les belles paroles, les belles paroles se trouvent à la cour, à la cour sont les courtisans, les courtisans suivent la mode, la mode vient de la fantaisie, la faculté de l'âme est ce qui nous donne la vie, la vie finit par la mort, la mort nous fait penser au ciel, le ciel est au-dessus de la terre, la terre n'est point la mer, la mer est sujette aux orages, les orages tourmentent les vaisseaux, les vaisseaux ont besoin d'un bon pilote, un bon pilote a de la prudence, la prudence n'est point dans les jeunes gens, les jeunes gens doivent obéissance aux vieux, les vieux aiment les richesses, les richesses font les riches, les riches ne sont pas pauvres, les pauvres ont de la nécessité, la nécessité n'a point de loi, qui n'a point de loi vit en bête brute, et par conséquent vous serez damné à tous les diables.</li>
+                <li>Voyez, je vous contait les plus belles paroles.</li>
+                <li>Peut-on trouver du goût à chérir une idole sans aucun enjouement, sans esprit, sans parole, et qui, répondant même à vos empressements, ne saurait exprimer quels sont ses sentiments ?</li>
+            </random>
+        </template>
+    </category>
+    <category><pattern># te repetes # </pattern><template><srai># REPETITION #</srai></template></category>
+    <category><pattern># vous repetez # </pattern><template><srai># REPETITION #</srai></template></category>
+    <category><pattern># perroquet # </pattern><template><srai># REPETITION #</srai></template></category>
 
 </aiml>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

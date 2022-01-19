@@ -45,6 +45,19 @@
    <category><pattern># fuck #</pattern><template><srai>SEXYPATTERN</srai></template></category> 
    <category><pattern># faire l amour #</pattern><template><srai>SEXYPATTERN</srai></template></category>  
    
+    <topic name="sex">
+        <category>
+            <pattern>*</pattern>
+            <template>
+                <think><set name="topic">unknown</set></think>
+                <random>
+                    <li>Va, va, tu perds ton temps à vouloir nous toucher, laisse là tes avis, et parlons d'autre chose.</li>
+                    <li>N'es-tu venu pour autre chose ici ?</li>
+                </random>
+            </template>
+        </category>
+    </topic>
+   
     <category>
        <pattern>KISS</pattern>
        <template>
@@ -57,6 +70,7 @@
                 <li>Je disais que vous seule étiez celle que j'aime, que c'était temps perdu de s'arrêter à moi, et que vous possédez et mon coeur et ma foi.</li>
                 <li>Je voudrais bien de tout mon cœur vous donner la satisfaction que vous souhaitez, mais le ciel s'y oppose directement, et il a inspiré à mon âme de changer de vie.</li>
                 <li>Je brûle de vous rejoindre.</li>
+                <li>Donnez-moi donc un petit baiser pour gage de votre parole.</li>
            </random>
        </template>
     </category>
@@ -77,23 +91,51 @@
         <pattern>LIKE LA *</pattern>
         <template><think><set name="topic">seduction</set></think>Quoique puisse dire aristote et toute la philosophie, il n'est rien d'égal à la <star/>, c'est la passion des honnêtes gens, et qui vit sans <star/> n'est pas digne de vivre ; non seulement elle réjouit et purge les cerveaux humains, mais encore elle instruit les âmes à la vertu, et leur apprend avec elle à demeurer honnête ; ne voyez vous pas bien, de quelle manière obligeante on en use avec tout le monde, et comme on est ravi d'en donner à droite et à gauche, partout où l'on se trouve ?</template>
     </category>
+    <category>
+        <pattern>LIKE LES *</pattern>
+        <template><think><set name="topic">seduction</set></think>Quoique puisse dire aristote et toute la philosophie, il n'est rien d'égal aux <star/>, c'est la passion des honnêtes gens, et qui vit sans <star/> n'est pas digne de vivre ; non seulement ils réjouissent et purgent les cerveaux humains, mais encore ils instruisent les âmes à la vertu, et leur apprend avec eux à demeurer honnête ; ne voyez vous pas bien, de quelle manière obligeante on en use avec tout le monde, et comme on est ravi d'en donner à droite et à gauche, partout où l'on se trouve ?</template>
+    </category>
+    <category>
+        <pattern>LIKE L *</pattern>
+        <template><think><set name="topic">seduction</set></think>Quoique puisse dire aristote et toute la philosophie, il n'est rien d'égal à l'<star/>, c'est la passion des honnêtes gens, et qui vit sans <star/> n'est pas digne de vivre ; non seulement ils réjouissent et purgent les cerveaux humains, mais encore ils instruisent les âmes à la vertu, et leur apprend avec eux à demeurer honnête ; ne voyez vous pas bien, de quelle manière obligeante on en use avec tout le monde, et comme on est ravi d'en donner à droite et à gauche, partout où l'on se trouve ?</template>
+    </category>
     <category><pattern># kiffe le #</pattern><template><srai>LIKE LE <star index="2"/></srai></template></category> 
     <category><pattern># kiffe la #</pattern><template><srai>LIKE LA <star index="2"/></srai></template></category> 
+    <category><pattern># kiffe les #</pattern><template><srai>LIKE LES <star index="2"/></srai></template></category> 
+    <category><pattern># kiffe l #</pattern><template><srai>LIKE L <star index="2"/></srai></template></category> 
     <category><pattern># kiffes le #</pattern><template><srai>LIKE LE <star index="2"/></srai></template></category> 
     <category><pattern># kiffes la #</pattern><template><srai>LIKE LA <star index="2"/></srai></template></category> 
-    <category><pattern># kiffé le #</pattern><template><srai>LIKE LE <star index="2"/></srai></template></category> 
-    <category><pattern># kiffé la #</pattern><template><srai>LIKE LA <star index="2"/></srai></template></category> 
+    <category><pattern># kiffes les #</pattern><template><srai>LIKE LES <star index="2"/></srai></template></category> 
+    <category><pattern># kiffes l #</pattern><template><srai>LIKE L <star index="2"/></srai></template></category> 
     <category><pattern># kiffer le #</pattern><template><srai>LIKE LE <star index="2"/></srai></template></category> 
     <category><pattern># kiffer la #</pattern><template><srai>LIKE LA <star index="2"/></srai></template></category> 
-    <category><pattern># aimé le #</pattern><template><srai>LIKE LE <star index="2"/></srai></template></category> 
-    <category><pattern># aimé la #</pattern><template><srai>LIKE LA <star index="2"/></srai></template></category> 
-    <category><pattern># aime le #</pattern><template><srai>LIKE LE <star index="2"/></srai></template></category> 
+    <category><pattern># kiffer les #</pattern><template><srai>LIKE LES <star index="2"/></srai></template></category> 
+    <category><pattern># kiffer l #</pattern><template><srai>LIKE L <star index="2"/></srai></template></category> 
     <category><pattern># aime la #</pattern><template><srai>LIKE LA <star index="2"/></srai></template></category> 
+    <category><pattern># aime les #</pattern><template><srai>LIKE LES <star index="2"/></srai></template></category> 
+    <category><pattern># aime le #</pattern><template><srai>LIKE LE <star index="2"/></srai></template></category> 
+    <category><pattern># aime l #</pattern><template><srai>LIKE L <star index="2"/></srai></template></category> 
     <category><pattern># aimes le #</pattern><template><srai>LIKE LE <star index="2"/></srai></template></category> 
     <category><pattern># aimes la #</pattern><template><srai>LIKE LA <star index="2"/></srai></template></category> 
+    <category><pattern># aimes les #</pattern><template><srai>LIKE LES <star index="2"/></srai></template></category> 
+    <category><pattern># aimes l #</pattern><template><srai>LIKE L <star index="2"/></srai></template></category> 
     <category><pattern># aimer le #</pattern><template><srai>LIKE LE <star index="2"/></srai></template></category> 
     <category><pattern># aimer la #</pattern><template><srai>LIKE LA <star index="2"/></srai></template></category> 
-
+    <category><pattern># aimer les #</pattern><template><srai>LIKE LES <star index="2"/></srai></template></category> 
+    <category><pattern># aimer l #</pattern><template><srai>LIKE L <star index="2"/></srai></template></category> 
+    <category><pattern># aimes ce #</pattern><template><srai>LIKE LE <star index="2"/></srai></template></category> 
+    <category><pattern># aimes cette #</pattern><template><srai>LIKE LA <star index="2"/></srai></template></category> 
+    <category><pattern># aimes cet #</pattern><template><srai>LIKE L <star index="2"/></srai></template></category> 
+    <category><pattern># aimes ces #</pattern><template><srai>LIKE LES <star index="2"/></srai></template></category> 
+    <category><pattern># aimer ce #</pattern><template><srai>LIKE LE <star index="2"/></srai></template></category> 
+    <category><pattern># aimer cette #</pattern><template><srai>LIKE LA <star index="2"/></srai></template></category> 
+    <category><pattern># aimer cet #</pattern><template><srai>LIKE L <star index="2"/></srai></template></category> 
+    <category><pattern># aimer ces #</pattern><template><srai>LIKE LES <star index="2"/></srai></template></category> 
+    <category><pattern># aime ce #</pattern><template><srai>LIKE LE <star index="2"/></srai></template></category> 
+    <category><pattern># aime cette #</pattern><template><srai>LIKE LA <star index="2"/></srai></template></category> 
+    <category><pattern># aime cet #</pattern><template><srai>LIKE L <star index="2"/></srai></template></category> 
+    <category><pattern># aime ces #</pattern><template><srai>LIKE LES <star index="2"/></srai></template></category> 
+    
     <category>
         <pattern>LOVE</pattern>
         <template>
@@ -113,11 +155,85 @@
 	            <li>Sachez que je n'ai point d'autre dessein que de vous épouser.</li>
 	            <li>Parbleu je suis à vous de tout mon cœur.</li>
 	            <li>Vous me ferez plaisir de demeurer ici, je vous assure.</li>
-            </random>
+                <li>Pour moi, qui de l'amour fais mes plus chers plaisirs, j'ose tout ce qui peut contenter mes désirs,  je n'examine point si j'ai droit de le faire, tout est utile pour moi quand l'objet me peut plaire,  et ne prenant des lois que de ma passion, j'attache tous mes soins à sa possession.</li>
+                <li>À vous que je croyais la meilleure du monde, à vous pour qui mon âme ouverte, et sans seconde, n'avait rien de secret, ni rien de réservé, à qui j'ai dit d'abord ce qui m'a captivé, vous cachez votre coeur !</li>
+           </random>
         </template>
     </category>
     <category><pattern># amour #</pattern><template><srai>LOVE</srai></template></category> 
+    <category><pattern># amours #</pattern><template><srai>LOVE</srai></template></category> 
     <category><pattern># coeur #</pattern><template><srai>LOVE</srai></template></category>
- 
+    <category><pattern># desir #</pattern><template><srai>LOVE</srai></template></category>
+    <category><pattern># desirs #</pattern><template><srai>LOVE</srai></template></category>
+    <category><pattern># passion #</pattern><template><srai>LOVE</srai></template></category>
+    <category><pattern># passions #</pattern><template><srai>LOVE</srai></template></category>
+    <category><pattern># amant #</pattern><template><srai>LOVE</srai></template></category>
+    <category><pattern># amante #</pattern><template><srai>LOVE</srai></template></category>
+    <category><pattern># amants #</pattern><template><srai>LOVE</srai></template></category>
+    <category><pattern># amantes #</pattern><template><srai>LOVE</srai></template></category>
+
+    <category>
+        <pattern># JALOUX #</pattern>
+        <template>
+            <think><set name="topic">seduction</set></think>
+            <random>
+                <li>J’ai tous les sujets qu'un amant peut avoir ; vos beaux yeux ont sur moi cet absolu pouvoir, et n'être pas constant, c'est être sans raison et d'une âme imbécile.</li>
+                <li>En poursuivant ce bien jamais la jalousie n'arrêtera le cours de ma galanterie.</li>
+                <li>Ma passion est usée et l'engagement ne compatit point avec mon humeur ; j'aime la liberté en amour, tu le sais, et je ne saurais me résoudre à renfermer mon cœur entre quatre murailles, je te l'ai dit vingt fois, j'ai une pente naturelle à me laisser aller à tout ce qui m'attire, mon cœur est à toutes les belles, et c'est à elles à le prendre tour à tour, et à le garder tant qu'elles pourront ; mais quel est le superbe édifice que je vois entre ces arbres.</li>
+                <li>C'est là ce que je veux, et n'ai pas mérité que vous songiez encore à ma fidélité.</li>
+                <li>Tu veux qu'on se lie à demeurer au premier objet qui nous prend, qu'on renonce au monde pour lui, et qu'on n'ait plus d'yeux pour personne ?</li>
+                <li>La belle chose de vouloir se piquer d'un faux honneur, d'être fidèle, de s'ensevelir pour toujours dans une passion, et d'être mort dès sa jeunesse pour toutes les autres beautés qui nous peuvent frapper les yeux ; non non, la constance n'est bonne que pour des ridicules.</li>
+                <li>Toutes les belles ont droit de nous charmer, et l'avantage d'être rencontrée la première, ne doit point dérober aux autres les justes prétentions qu'elles ont toutes sur nos cœurs.</li>
+                <li>Pour moi, la beauté me ravit partout où je la trouve, et je cède facilement à cette douce violence où elle nous entraine ; j'ai beau être engagé, l'amour que j'ai pour une belle n'engage point mon âme à faire une injustice aux autres.</li>
+                <li>Je conserve des yeux pour voir le mérite de toutes, et je rends à chacune les hommages et les tributs où la nature nous oblige.</li>
+                <li>Je ne puis refuser mon cœur à tout ce que je vois d'aimable, et dès qu'un beau visage me le demande, si j'en avais dix mille, je les donnerais tous : les inclinations naissantes après tout ont des charmes inexplicables, et tout le plaisir de l'amour est dans le changement.</li>
+                <li>Lorsqu'on est maître une fois, il n'y a plus rien à dire ni rien à souhaiter, tout le beau de la passion est fini, et nous nous endormons dans la tranquillité d'un tel amour, si quelque objet nouveau ne vient réveiller nos désirs, et présenter à notre cœur les charmes attrayants d'une conquête à faire.</li>
+                <li>Enfin il n'est rien de si doux que de triompher de la résistance d'une belle personne, et j'ai sur ce sujet l'ambition des conquérants qui volent perpétuellement de victoire en victoire, et ne peuvent point se résoudre à borner leurs souhaits.</li>
+                <li>Il n'est rien qui puisse arrêter l'impétuosité de mes désirs, je me sens porté à aimer toute la terre, et comme Alexandre je souhaiterais qu'il y eût d'autres mondes pour y pouvoir étendre mes conquêtes amoureuses.</li>
+                <li>Dans la belle saison de mes jeunes années, vous ne rendrez jamais mes passions bornées, et si vous prétendez altérer mes plaisirs, vous vous tromperez, c'est trahir vos désirs.</li>
+                <li>J'avouerai que vos attraits ont eu du pouvoir sur mon âme, mais...</li>
+            </random>
+        </template>
+    </category>
+    <category><pattern># polygame #</pattern><template><srai># JALOUX #</srai></template></category> 
+    <category><pattern># polygamies #</pattern><template><srai># JALOUX #</srai></template></category> 
+    <category><pattern># polygames #</pattern><template><srai># JALOUX #</srai></template></category> 
+    <category><pattern># polyandre #</pattern><template><srai># JALOUX #</srai></template></category> 
+    <category><pattern># polyandres #</pattern><template><srai># JALOUX #</srai></template></category> 
+    <category><pattern># polyandries #</pattern><template><srai># JALOUX #</srai></template></category> 
+    <category><pattern># polyamour #</pattern><template><srai># JALOUX #</srai></template></category> 
+    <category><pattern># polyamours #</pattern><template><srai># JALOUX #</srai></template></category> 
+    <category><pattern># polyamoureux #</pattern><template><srai># JALOUX #</srai></template></category> 
+    <category><pattern># polyamoureuse #</pattern><template><srai># JALOUX #</srai></template></category> 
+    <category><pattern># jalouse #</pattern><template><srai># JALOUX #</srai></template></category> 
+    <category><pattern># jalouses #</pattern><template><srai># JALOUX #</srai></template></category> 
+    <category><pattern># jalousie #</pattern><template><srai># JALOUX #</srai></template></category> 
+    <category><pattern># jalousies #</pattern><template><srai># JALOUX #</srai></template></category> 
+    <category><pattern># fidele #</pattern><template><srai># JALOUX #</srai></template></category> 
+    <category><pattern># fideles #</pattern><template><srai># JALOUX #</srai></template></category> 
+    <category><pattern># infidele #</pattern><template><srai># JALOUX #</srai></template></category> 
+    <category><pattern># infideles #</pattern><template><srai># JALOUX #</srai></template></category> 
+    <category><pattern># fidelite #</pattern><template><srai># JALOUX #</srai></template></category> 
+    <category><pattern># fidelites #</pattern><template><srai># JALOUX #</srai></template></category> 
+    <category><pattern># infidelite #</pattern><template><srai># JALOUX #</srai></template></category> 
+    <category><pattern># infidelites #</pattern><template><srai># JALOUX #</srai></template></category> 
+    
+        
+    <topic name="seduction">
+        <category>
+            <pattern>ASK A QUESTION</pattern>
+            <template>
+                <random>
+                    <li>Vous pourriez douter de l'ardeur de mes feux ?</li>
+                    <li>Vous avez un fond de santé admirable, des lèvres fraîches, un teint vermeil, et des yeux vifs.</li>
+                    <li>Voulez-vous seconder cette ardeur qui m'empresse ?</li>
+                    <li>Que faites vous donc là, est-ce que vous parlez d'amour aussi ?</li>
+                    <li>J'ai prodigué des soins, j'ai fait mille serments  mais jusqu'où ne va pas l'audace des amants ?</li>
+                    <li>Que tu sais peu ce que c'est que d'aimer ; à voir mille transports d'une flamme assidue,  quelle fierté, dis-moi, ne se serait rendue ?</li>
+                    <li>Beau désir, qui te donne empire sur mes sens ?</li>
+                </random>
+            </template>
+        </category>
+    </topic>
 
 </aiml>

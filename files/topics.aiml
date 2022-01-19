@@ -7,9 +7,14 @@
             <random>
                 <li>Je veux savoir un peu vos pensées à fonds ; est-il possible que vous ne croyez point du tout au ciel ?</li>
                 <li>Doutez-vous du pouvoir de nos dieux ?</li>
+                <li>Eh quoi, toujours le ciel ?</li>
+                <li>Quel diable de style prenez-vous là ?</li>
+                <li>Que parlez-vous de foi ?</li>
             </random>
         </template>
     </category>
+    <category><pattern># DIEU #</pattern><template><srai># RELIGION #</srai></template></category>
+    <category><pattern># FOI #</pattern><template><srai># RELIGION #</srai></template></category>
 
     <category>
         <pattern>KNOW LA *</pattern>
@@ -98,5 +103,28 @@
     <category><pattern># connaitre une #</pattern><template><srai>KNOW LA <star index="2"/></srai></template></category>
     <category><pattern># connaitre des #</pattern><template><srai>KNOW LES <star index="2"/></srai></template></category>
     <category><pattern># connaitre un #</pattern><template><srai>KNOW LE <star index="2"/></srai></template></category>
+
+    
+    <category>
+        <pattern>KNOW MY NAME</pattern>
+        <template>
+            <condition name="username">
+                <li value="unknown"><think><set name="topic">tonnom</set></think>Quel est ton nom ?</li>
+                <li>
+                    <random>
+                        <li>On te nomme <get name="username"/>, n'est-il pas ?</li>
+                        <li><get name="username"/>, est-ce ainsi qu'on vous nomme ?</li>
+                        <li><get name="username"/>, n'est-ce point toi ?</li>
+                    </random>
+                </li>
+            </condition>
+        </template>
+    </category>
+    <category><pattern># connais # mon nom #</pattern><template><srai>KNOW MY NAME</srai></template></category>
+    <category><pattern># connaissez # mon nom #</pattern><template><srai>KNOW MY NAME</srai></template></category>
+    <category><pattern># connaitre # mon nom #</pattern><template><srai>KNOW MY NAME</srai></template></category>
+    <category><pattern># quel est mon nom #</pattern><template><srai>KNOW MY NAME</srai></template></category>
+    <category><pattern># sais # mon nom #</pattern><template><srai>KNOW MY NAME</srai></template></category>
+    <category><pattern># savez # mon nom #</pattern><template><srai>KNOW MY NAME</srai></template></category>
      
 </aiml>

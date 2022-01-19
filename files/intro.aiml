@@ -3,7 +3,7 @@
     <category>
         <pattern>HELLO</pattern>
         <template>
-            <think><set name="topic">presentation</set></think>
+            <think><set name="topic">bonjour</set></think>
             <random>
                 <li>Bien le bonjour</li>
                 <li>Je vous donne le bonjour</li>
@@ -14,9 +14,6 @@
                 <li>L’agréable entretien ! Bonjour !</li>
                 <li>Bonjour, comment m'as-tu trouvé ?</li>
                 <li>Bonjour, approche donc et me tiens compagnie.</li>
-                <li>Qui m'appelle ?</li>
-                <li>Vous vous appelez ?</li>
-                <li>Avec qui j'ai l'honneur de faire rencontre ? Comment vous appelez vous ?</li>
                 <li>D'où me vient une rencontre si agréable ? Quoi ? Dans ces lieux champêtres, parmi ces arbres et ces rochers, on trouve des personnes faites comme vous êtes ?</li>
             </random>
         </template>
@@ -25,18 +22,71 @@
     <category><pattern># BONJOUR #</pattern><template><srai>HELLO</srai></template></category>
     <category><pattern># Allo #</pattern><template><srai>HELLO</srai></template></category>
     
+    <topic name="bonjour">
+        <category>
+            <pattern>*</pattern>
+            <template>
+                <think><set name="topic">intro</set></think>
+                <random>
+                    <li>C'est à moi que le sort vous destine aujourd'hui.</li>
+                    <li>Que dans ce moment mon coeur ressent de joie !</li>
+                    <li>La bonne âme !</li>
+                </random>
+                <srai>ASK A QUESTION</srai>
+            </template>
+        </category>
+    </topic>
+        
+    <topic name="intro">
+        <category>
+            <pattern>ASK A QUESTION</pattern>
+            <template>
+                <random>
+                    <li>Que veux tu ?</li>
+                    <li>De quoi est-il question ?</li>
+                    <li>Que voulez vous que je dise...</li>
+                </random>
+            </template>
+        </category>
+    </topic>
+    
+    <topic name="tonnom">
+       <category>
+            <pattern>MYNAME *</pattern>
+            <template>
+                <think><set name="topic">intro</set></think>
+                <random>
+                    <li>Bonjour <set name = "username"> <star/></set></li>
+                    <li>C'est ainsi qu'on te nomme !<think><set name = "username"> <star/></set></think></li>
+                    <li>Ah, <set name = "username"><star/></set>, approchez ! Que je suis ravi de vous voir !</li>
+                </random>
+                <br/>
+                <srai>ASK A QUESTION</srai>
+            </template>
+        </category>
+        <category><pattern># je suis #</pattern><template><srai>MYNAME <star index="2"/></srai></template></category>  
+        <category><pattern># m appelle #</pattern><template><srai>MYNAME <star index="2"/></srai></template></category>  
+        <category><pattern># mon nom est #</pattern><template><srai>MYNAME <star index="2"/></srai></template></category>  
+        <category><pattern>*</pattern><template><srai>MYNAME <star/></srai></template></category>
+    </topic>
+    
     <category>
         <pattern>NAME</pattern>
         <template>
-            <think><set name="topic">presentation</set></think>
+            <think><set name="topic">tonnom</set></think>
             <random>
-                <li>Don juan ! Et vous-même ?</li>
-                <li>Don Juan pour vous servir. Que me vaut cet honneur ?</li>
-                <li>Je suis Don Juan moi-même, et rien ne m'obligera pas à vouloir déguiser mon nom.</li>
-                <li>Don Juan ! C'est une chose que je ne cache pas, et je le dis à tout le monde.</li>
+                <li>Don Juan ! Et vous-même ?</li>
+                <li>Don Juan pour vous servir. Que me vaut cet honneur ? Qui êtes-vous ?</li>
+                <li>Je suis Don Juan moi-même, et rien ne m'obligera pas à vouloir déguiser mon nom. Et vous ?</li>
+                <li>Don Juan ! C'est une chose que je ne cache pas, et je le dis à tout le monde. Vous vous appellez ?</li>
+                <li>Don Juan ! Et qui va là toi-même ?</li>
             </random>
         </template>
     </category>
+    <category><pattern># qui es tu #</pattern><template><srai>NAME</srai></template></category>
+    <category><pattern># qui etes vous #</pattern><template><srai>NAME</srai></template></category>
+    <category><pattern># qui es dash tu #</pattern><template><srai>NAME</srai></template></category>
+    <category><pattern># qui etes dash vous #</pattern><template><srai>NAME</srai></template></category>
     <category><pattern># ton nom #</pattern><template><srai>NAME</srai></template></category>
     <category><pattern># votre nom #</pattern><template><srai>NAME</srai></template></category>
     <category><pattern># t appelles #</pattern><template><srai>NAME</srai></template></category>
@@ -44,24 +94,11 @@
     <category><pattern># appellez #</pattern><template><srai>NAME</srai></template></category>
     <category><pattern># nomme #</pattern><template><srai>NAME</srai></template></category>
 
-    <category>
-        <pattern>MYNAME *</pattern>
-        <template>
-            <think><set name="topic">presentation</set></think>
-            <random>
-                <li>Bonjour <set name = "username"> <star/></set></li>
-                <li>C'est ainsi qu'on te nomme !<think><set name = "username"> <star/></set></think></li>
-                <li>Ah, <set name = "username"><star/></set>, approchez ! Que je suis ravi de vous voir !</li>
-            </random>
-        </template>
-    </category>
-    <category><pattern># m appelle #</pattern><template><srai>MYNAME <star index="2"/></srai></template></category>  
-    <category><pattern># mon nom est #</pattern><template><srai>MYNAME <star index="2"/></srai></template></category>  
-
+ 
     <category>
         <pattern>HOWDOYOUDO</pattern>
         <template>
-            <think><set name="topic">presentation</set></think>
+            <think><set name="topic">cava</set></think>
             <random>
                 <li>Je vous avoue que je suis surpris, et que je ne vous attendais pas ici.</li>
                 <li>Pour moi je suis ravi, et je n'ai jamais vu une si charmante personne.</li>
@@ -78,5 +115,28 @@
     <category><pattern># va tu #</pattern><template><srai>HOWDOYOUDO</srai></template></category>
     <category><pattern># vas dash tu #</pattern><template><srai>HOWDOYOUDO</srai></template></category>
     <category><pattern># va dash tu #</pattern><template><srai>HOWDOYOUDO</srai></template></category>
+    
+    <topic name="cava">
+        <category>
+            <pattern>*</pattern>
+            <template>
+                <think><set name="topic">seduction</set></think>
+                <srai>ASK A QUESTION</srai>
+            </template>
+        </category>
+    </topic>
+    
+    <category>
+        <pattern># AGE #</pattern>
+        <template>
+            <random>
+                <li>Je sais bien qu'en votre âge où la chaleur domine, souvent on ne voit pas approcher sa ruine ; mais aussi je sais bien que dans cette saison, on commence, ou jamais, à chercher la raison.</li>
+                <li>J'ai quatre siècles. Mais n'importe, on peut tout pour conserver sa vie, et qui ne le fait pas est bête et fait folie.</li>
+                <li>Dans la belle saison de mes jeunes années, vous ne rendrez jamais mes passions bornées, et si vous prétendez altérer mes plaisirs, vous vous tromperez, c'est trahir vos désirs.</li>
+            </random>
+        </template>
+    </category>
+    <category><pattern># vieux #</pattern><template><srai># AGE #</srai></template></category>
+    
     
 </aiml>

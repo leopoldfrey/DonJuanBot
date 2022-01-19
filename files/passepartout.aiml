@@ -7,15 +7,86 @@
                 <li>Je pourrais peut-être me tromper, mais enfin sur de tels sujets l’expérience m’a donné quelque lumière.</li>
                 <li>Mais encore, quelle est ta pensée là-dessus, que t’imagines-tu de cette affaire ?</li>
                 <li>Qu’as tu à dire là-dessus ?</li>
-                <li>De quoi est-il question ?</li>
-                <li>Que voulez vous que je dise...</li>
                 <li>Vraiment oui, nous nous moquons bien de cela nous autres.</li>
-                <li>Que veux tu ?</li>
                 <li>Ah que de bruit.</li>
-                <li>Vous avez un fond de santé admirable, des lèvres fraîches, un teint vermeil, et des yeux vifs.</li>
                 <li>Ô beau raisonnement !</li>
+                <li>Sommes nous ensemble pour t'ouïr raisonner ?</li>
                 <li>Ma foi, j'ai à dire, et je ne sais que dire, car vous tournez les choses d'une manière qu'il semble que vous ayez raison, et cependant il est vrai que vous ne l'avez pas ; j'avais les plus belles pensées du monde, et vos discours m'ont brouillé tout cela : laissez faire, une autre fois je mettrai mes raisonnements par écrit, pour disputer avec vous.</li>
+                <li>N'en parlons pas davantage.</li>
             </random>
         </template>
     </category>
+    
+    <category>
+        <pattern>OUI</pattern>
+        <template>
+            <random>
+                <li>J'en demeure d'accord.</li>
+                <li>J'en suis d'accord.</li>
+                <li>Oui-da</li>
+                <li>Il n'est rien de plus vrai.</li>
+                <li>Fort bien.</li>
+            </random></template>
+    </category>
+    <category><pattern>d accord</pattern><template><srai>OUI</srai></template></category>
+    <category><pattern>ok</pattern><template><srai>OUI</srai></template></category>
+    <category><pattern>dac</pattern><template><srai>OUI</srai></template></category>
+    <category><pattern>c est ca</pattern><template><srai>OUI</srai></template></category>
+    <category><pattern>si</pattern><template><srai>OUI</srai></template></category>
+    <category><pattern>oui oui</pattern><template><srai>OUI</srai></template></category>
+    
+    <category>
+        <pattern>NON</pattern>
+        <template>
+            <random>
+                <li>Non, très assurément.</li>
+                <li>Mettons-nous d'accord !</li>
+            </random>
+        </template>
+    </category>
+    <category><pattern>non non</pattern><template><srai>NON</srai></template></category>
+    
+    <category>
+        <pattern># MERCI #</pattern>
+        <template>
+            <random>
+                <li>Grand merci !</li>
+                <li>Merci à vous !</li>
+            </random>
+            <br/>
+            <srai>ASK A QUESTION</srai>
+        </template>
+    </category>
+    
+    <topic name="provocation">
+        <category>
+            <pattern>ASK A QUESTION</pattern>
+            <template>
+                <random>
+                    <li>Vous moquez-vous ?</li>
+                    <li>Et qu'avez vous fait dans le monde ?</li>
+                    <li>Quels crimes ai-je fait ?</li>
+                    <li>Que t'importe-t-il si je fais bien ou mal ?</li>
+                    <li>Laisse-moi suivre en tout cette ardeur qui m'anime ;  j'obéis à mes sens, il est vrai, mais quel crime ?</li>
+                    <li>Dois-je suivre ici ton avis ou le mien ?</li>
+                    <li>Pourquoi me marier ?</li>
+                    <li>Je fais ce que je veux, dois-je t'en rendre compte ?</li>
+                    <li>As-tu l'esprit perdu ?</li>
+                </random>
+            </template>
+        </category>
+    </topic>
+    
+    <topic name="fuite">
+        <category>
+            <pattern>ASK A QUESTION</pattern>
+            <template>
+                <random>
+                    <li>Quoi, tu prends pour de bon argent ce que je viens de dire, et tu crois que ma bouche est d'accord avec mon cœur ?</li>
+                    <li>Tu prétends donc jaser incessamment, et sans examiner que ton caquet m'offense, tu ne peux un moment te résoudre au silence ?</li>
+                </random>
+            </template>
+        </category>
+    </topic>
+    
 </aiml>
