@@ -49,7 +49,7 @@
         <category>
             <pattern>*</pattern>
             <template>
-                <think><set name="topic">unknown</set></think>
+                <think><set name="topic"></set></think>
                 <random>
                     <li>Va, va, tu perds ton temps à vouloir nous toucher, laisse là tes avis, et parlons d'autre chose.</li>
                     <li>N'es-tu venu pour autre chose ici ?</li>
@@ -134,7 +134,8 @@
     <category><pattern># aime ce #</pattern><template><srai>LIKE LE <star index="2"/></srai></template></category> 
     <category><pattern># aime cette #</pattern><template><srai>LIKE LA <star index="2"/></srai></template></category> 
     <category><pattern># aime cet #</pattern><template><srai>LIKE L <star index="2"/></srai></template></category> 
-    <category><pattern># aime ces #</pattern><template><srai>LIKE LES <star index="2"/></srai></template></category> 
+    <category><pattern># aime ces #</pattern><template><srai>LIKE LES <star index="2"/></srai></template></category>
+    <!-- manque verbe / noms propres -->
     
     <category>
         <pattern>LOVE</pattern>
@@ -201,6 +202,16 @@
     <category><pattern># polyandre #</pattern><template><srai># JALOUX #</srai></template></category> 
     <category><pattern># polyandres #</pattern><template><srai># JALOUX #</srai></template></category> 
     <category><pattern># polyandries #</pattern><template><srai># JALOUX #</srai></template></category> 
+    <category><pattern># poliamour #</pattern><template><srai># JALOUX #</srai></template></category> 
+    <category><pattern># poli amour #</pattern><template><srai># JALOUX #</srai></template></category> 
+    <category><pattern># poliamours #</pattern><template><srai># JALOUX #</srai></template></category> 
+    <category><pattern># poli amours #</pattern><template><srai># JALOUX #</srai></template></category> 
+    <category><pattern># poliamoureux #</pattern><template><srai># JALOUX #</srai></template></category> 
+    <category><pattern># poli amoureux #</pattern><template><srai># JALOUX #</srai></template></category> 
+    <category><pattern># poliamoureuse #</pattern><template><srai># JALOUX #</srai></template></category> 
+    <category><pattern># poli amoureuse #</pattern><template><srai># JALOUX #</srai></template></category> 
+    <category><pattern># poliamoureuses #</pattern><template><srai># JALOUX #</srai></template></category> 
+    <category><pattern># poli amoureuses #</pattern><template><srai># JALOUX #</srai></template></category> 
     <category><pattern># polyamour #</pattern><template><srai># JALOUX #</srai></template></category> 
     <category><pattern># polyamours #</pattern><template><srai># JALOUX #</srai></template></category> 
     <category><pattern># polyamoureux #</pattern><template><srai># JALOUX #</srai></template></category> 

@@ -1,20 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="2.0">
-    <category>
-        <pattern># RELIGION #</pattern>
-        <template>
-            <think><set name="topic">religion</set></think>
-            <random>
-                <li>Je veux savoir un peu vos pensées à fonds ; est-il possible que vous ne croyez point du tout au ciel ?</li>
-                <li>Doutez-vous du pouvoir de nos dieux ?</li>
-                <li>Eh quoi, toujours le ciel ?</li>
-                <li>Quel diable de style prenez-vous là ?</li>
-                <li>Que parlez-vous de foi ?</li>
-            </random>
-        </template>
-    </category>
-    <category><pattern># DIEU #</pattern><template><srai># RELIGION #</srai></template></category>
-    <category><pattern># FOI #</pattern><template><srai># RELIGION #</srai></template></category>
+
+    <!-- philosophie -->
+    <!-- beauté -->
 
     <category>
         <pattern>KNOW LA *</pattern>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+	<category>
+	    <pattern># MEDECIN #</pattern>
+	    <template>
+	        <random>
+	            <li>Mais laissons-là la médecine, où vous ne croyez point, et parlons des autres choses</li>
+	            <li></li>
+	        </random>
+	    </template>
+    </category>
+    <category><pattern># medecine #</pattern><template><srai># MEDECIN #</srai></template></category>
+    
+ 
+    
+    
+    
+</aiml>

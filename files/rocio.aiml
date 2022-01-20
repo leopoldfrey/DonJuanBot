@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+
+<category>
+    <pattern>philosophie</pattern>
+    <template>
+        <random>
+            <li>réponse1</li>
+            <li>réponse2</li>
+            <li>réponse3</li>
+        </random>
+</template>
+</category>
+
+<category>
+    <pattern>philosophie</pattern>
+    <template>
+        <random>
+            <li>ook1</li>
+            <li>ok2</li>
+            <li>oeijfsodifj</li>
+            <li>zzzz</li>
+        </random>
+    </template>
+</category>
+</aiml>

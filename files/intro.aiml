@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="2.0">
     <category>
-        <pattern>HELLO</pattern>
+        <pattern># HELLO #</pattern>
         <template>
             <think><set name="topic">bonjour</set></think>
             <random>
@@ -20,7 +20,15 @@
     </category>
     <category><pattern># Salut #</pattern><template><srai>HELLO</srai></template></category>
     <category><pattern># BONJOUR #</pattern><template><srai>HELLO</srai></template></category>
+    <category><pattern># Bonsoir #</pattern><template><srai>HELLO</srai></template></category>
+    <category><pattern># Ciao #</pattern><template><srai>HELLO</srai></template></category>
     <category><pattern># Allo #</pattern><template><srai>HELLO</srai></template></category>
+    <category><pattern># Hi #</pattern><template><srai>HELLO</srai></template></category>
+    <category><pattern># Hey #</pattern><template><srai>HELLO</srai></template></category>
+    <category><pattern># Hola #</pattern><template><srai>HELLO</srai></template></category>
+    <category><pattern># Allo #</pattern><template><srai>HELLO</srai></template></category>
+    <category><pattern># Hallo #</pattern><template><srai>HELLO</srai></template></category>
+    <category><pattern># Oi #</pattern><template><srai>HELLO</srai></template></category>
     
     <topic name="bonjour">
         <category>
@@ -31,7 +39,7 @@
                     <li>C'est à moi que le sort vous destine aujourd'hui.</li>
                     <li>Que dans ce moment mon coeur ressent de joie !</li>
                     <li>La bonne âme !</li>
-                </random>
+                </random><br/>
                 <srai>ASK A QUESTION</srai>
             </template>
         </category>
@@ -49,7 +57,37 @@
             </template>
         </category>
     </topic>
-    
+
+    <category>
+        <pattern>NAME</pattern>
+        <template>
+            <think><set name="topic">tonnom</set></think>
+            <random>
+                <li>Don Juan ! Et vous-même ?</li>
+                <li>Don Juan pour vous servir. Que me vaut cet honneur ? Qui êtes-vous ?</li>
+                <li>Je suis Don Juan moi-même, et rien ne m'obligera pas à vouloir déguiser mon nom. Et vous ?</li>
+                <li>Don Juan ! C'est une chose que je ne cache pas, et je le dis à tout le monde. Vous vous appellez ?</li>
+                <li>Don Juan ! Et qui va là toi-même ?</li>
+            </random>
+        </template>
+    </category>
+    <category><pattern># tu es qui #</pattern><template><srai>NAME</srai></template></category>
+    <category><pattern># tu est qui #</pattern><template><srai>NAME</srai></template></category>
+    <category><pattern># vous etes qui #</pattern><template><srai>NAME</srai></template></category>
+    <category><pattern># qui es tu #</pattern><template><srai>NAME</srai></template></category>
+    <category><pattern># qui est tu #</pattern><template><srai>NAME</srai></template></category>
+    <category><pattern># qui etes vous #</pattern><template><srai>NAME</srai></template></category>
+    <category><pattern># qui es dash tu #</pattern><template><srai>NAME</srai></template></category>
+    <category><pattern># qui est dash tu #</pattern><template><srai>NAME</srai></template></category>
+    <category><pattern># qui etes dash vous #</pattern><template><srai>NAME</srai></template></category>
+    <category><pattern># ton nom #</pattern><template><srai>NAME</srai></template></category>
+    <category><pattern># votre nom #</pattern><template><srai>NAME</srai></template></category>
+    <category><pattern># t appelles #</pattern><template><srai>NAME</srai></template></category>
+    <category><pattern># t appelle #</pattern><template><srai>NAME</srai></template></category>
+    <category><pattern># appellez #</pattern><template><srai>NAME</srai></template></category>
+    <category><pattern># nomme #</pattern><template><srai>NAME</srai></template></category>
+
+     
     <topic name="tonnom">
        <category>
             <pattern>MYNAME *</pattern>
@@ -66,35 +104,11 @@
         </category>
         <category><pattern># je suis #</pattern><template><srai>MYNAME <star index="2"/></srai></template></category>  
         <category><pattern># m appelle #</pattern><template><srai>MYNAME <star index="2"/></srai></template></category>  
+        <category><pattern># mon nom # est #</pattern><template><srai>MYNAME <star index="3"/></srai></template></category>  
         <category><pattern># mon nom est #</pattern><template><srai>MYNAME <star index="2"/></srai></template></category>  
         <category><pattern>*</pattern><template><srai>MYNAME <star/></srai></template></category>
     </topic>
     
-    <category>
-        <pattern>NAME</pattern>
-        <template>
-            <think><set name="topic">tonnom</set></think>
-            <random>
-                <li>Don Juan ! Et vous-même ?</li>
-                <li>Don Juan pour vous servir. Que me vaut cet honneur ? Qui êtes-vous ?</li>
-                <li>Je suis Don Juan moi-même, et rien ne m'obligera pas à vouloir déguiser mon nom. Et vous ?</li>
-                <li>Don Juan ! C'est une chose que je ne cache pas, et je le dis à tout le monde. Vous vous appellez ?</li>
-                <li>Don Juan ! Et qui va là toi-même ?</li>
-            </random>
-        </template>
-    </category>
-    <category><pattern># qui es tu #</pattern><template><srai>NAME</srai></template></category>
-    <category><pattern># qui etes vous #</pattern><template><srai>NAME</srai></template></category>
-    <category><pattern># qui es dash tu #</pattern><template><srai>NAME</srai></template></category>
-    <category><pattern># qui etes dash vous #</pattern><template><srai>NAME</srai></template></category>
-    <category><pattern># ton nom #</pattern><template><srai>NAME</srai></template></category>
-    <category><pattern># votre nom #</pattern><template><srai>NAME</srai></template></category>
-    <category><pattern># t appelles #</pattern><template><srai>NAME</srai></template></category>
-    <category><pattern># t appelle #</pattern><template><srai>NAME</srai></template></category>
-    <category><pattern># appellez #</pattern><template><srai>NAME</srai></template></category>
-    <category><pattern># nomme #</pattern><template><srai>NAME</srai></template></category>
-
- 
     <category>
         <pattern>HOWDOYOUDO</pattern>
         <template>

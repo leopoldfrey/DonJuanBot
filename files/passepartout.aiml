@@ -17,35 +17,38 @@
         </template>
     </category>
     
-    <category>
-        <pattern>OUI</pattern>
-        <template>
-            <random>
-                <li>J'en demeure d'accord.</li>
-                <li>J'en suis d'accord.</li>
-                <li>Oui-da</li>
-                <li>Il n'est rien de plus vrai.</li>
-                <li>Fort bien.</li>
-            </random></template>
-    </category>
-    <category><pattern>d accord</pattern><template><srai>OUI</srai></template></category>
-    <category><pattern>ok</pattern><template><srai>OUI</srai></template></category>
-    <category><pattern>dac</pattern><template><srai>OUI</srai></template></category>
-    <category><pattern>c est ca</pattern><template><srai>OUI</srai></template></category>
-    <category><pattern>si</pattern><template><srai>OUI</srai></template></category>
-    <category><pattern>oui oui</pattern><template><srai>OUI</srai></template></category>
+    <topic name="unknown">
+        <category>
+            <pattern>OUI</pattern>
+            <template>
+                <random>
+                    <li>J'en demeure d'accord.</li>
+                    <li>J'en suis d'accord.</li>
+                    <li>Oui-da</li>
+                    <li>Il n'est rien de plus vrai.</li>
+                    <li>Fort bien.</li>
+                </random></template>
+        </category>
+        <category><pattern>d accord</pattern><template><srai>OUI</srai></template></category>
+        <category><pattern>ok</pattern><template><srai>OUI</srai></template></category>
+        <category><pattern>dac</pattern><template><srai>OUI</srai></template></category>
+        <category><pattern>c est ca</pattern><template><srai>OUI</srai></template></category>
+        <category><pattern>si</pattern><template><srai>OUI</srai></template></category>
+        <category><pattern>oui oui</pattern><template><srai>OUI</srai></template></category>
+    </topic>
     
-    <category>
-        <pattern>NON</pattern>
-        <template>
-            <random>
-                <li>Non, très assurément.</li>
-                <li>Mettons-nous d'accord !</li>
-            </random>
-        </template>
-    </category>
-    <category><pattern>non non</pattern><template><srai>NON</srai></template></category>
-    
+    <topic name="unknown">
+        <category>
+            <pattern>NON</pattern>
+            <template>
+                <random>
+                    <li>Non, très assurément.</li>
+                    <li>Mettons-nous d'accord !</li>
+                </random>
+            </template>
+        </category>
+        <category><pattern>non non</pattern><template><srai>NON</srai></template></category>
+    </topic>
     <category>
         <pattern># MERCI #</pattern>
         <template>
@@ -58,35 +61,40 @@
         </template>
     </category>
     
-    <topic name="provocation">
-        <category>
-            <pattern>ASK A QUESTION</pattern>
-            <template>
-                <random>
-                    <li>Vous moquez-vous ?</li>
-                    <li>Et qu'avez vous fait dans le monde ?</li>
-                    <li>Quels crimes ai-je fait ?</li>
-                    <li>Que t'importe-t-il si je fais bien ou mal ?</li>
-                    <li>Laisse-moi suivre en tout cette ardeur qui m'anime ;  j'obéis à mes sens, il est vrai, mais quel crime ?</li>
-                    <li>Dois-je suivre ici ton avis ou le mien ?</li>
-                    <li>Pourquoi me marier ?</li>
-                    <li>Je fais ce que je veux, dois-je t'en rendre compte ?</li>
-                    <li>As-tu l'esprit perdu ?</li>
-                </random>
-            </template>
-        </category>
-    </topic>
+    <category>
+        <pattern># je # sais pas #</pattern>
+        <template>
+            <random>
+                <li>Moi non plus</li>
+                <li>Vous ne savez rien !</li>
+                <li>Comment savoir ?</li>
+            </random>
+        </template>
+    </category>
+    <category><pattern># je # savais # rien #</pattern><template><srai># je # sais pas #</srai></template></category>
+    <category><pattern># je # sais # rien #</pattern><template><srai># je # sais pas #</srai></template></category>
+    <category><pattern># je # connaissais # rien #</pattern><template><srai># je # sais pas #</srai></template></category>
+    <category><pattern># je # connais # rien #</pattern><template><srai># je # sais pas #</srai></template></category>
+    <category><pattern># je # connaissait # pas #</pattern><template><srai># je # sais pas #</srai></template></category>
+    <category><pattern># je # connais # pas #</pattern><template><srai>JE SAIS PAS</srai></template></category>
+
+    <category>
+        <pattern># tu # sais pas #</pattern>
+        <template>
+            <random>
+                <li>Et non !</li>
+                <li>Vous si ?</li>
+                <li>Comment savoir ?</li>
+            </random>
+        </template>
+    </category>
+    <category><pattern># tu # savais # rien #</pattern><template><srai># tu # sais pas #</srai></template></category>
+        <category><pattern># tu # sais # rien #</pattern><template><srai># tu # sais pas #</srai></template></category>
+    <category><pattern># tu # connaissais # rien #</pattern><template><srai># tu # sais pas #</srai></template></category>
+    <category><pattern># tu # connais # rien #</pattern><template><srai># tu # sais pas #</srai></template></category>
+    <category><pattern># tu # connaissait # pas #</pattern><template><srai># tu # sais pas #</srai></template></category>
+    <category><pattern># tu # connais # pas #</pattern><template><srai># tu # sais pas #</srai></template></category>
+   
     
-    <topic name="fuite">
-        <category>
-            <pattern>ASK A QUESTION</pattern>
-            <template>
-                <random>
-                    <li>Quoi, tu prends pour de bon argent ce que je viens de dire, et tu crois que ma bouche est d'accord avec mon cœur ?</li>
-                    <li>Tu prétends donc jaser incessamment, et sans examiner que ton caquet m'offense, tu ne peux un moment te résoudre au silence ?</li>
-                </random>
-            </template>
-        </category>
-    </topic>
-    
+
 </aiml>

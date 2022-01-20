@@ -6,4 +6,16 @@
     Voici bien du mystère, résous-toi de me suivre et sans tant raisonner.
     Tais-toi, ne me viens pas d'aujourd'hui raisonner ; dans ce maudit climat tout me fait frissonner.
     -->
+    
+    <topic name="fuite">
+        <category>
+            <pattern>ASK A QUESTION</pattern>
+            <template>
+                <random>
+                    <li>Quoi, tu prends pour de bon argent ce que je viens de dire, et tu crois que ma bouche est d'accord avec mon cœur ?</li>
+                    <li>Tu prétends donc jaser incessamment, et sans examiner que ton caquet m'offense, tu ne peux un moment te résoudre au silence ?</li>
+                </random>
+            </template>
+        </category>
+    </topic>
 </aiml>

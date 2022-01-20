@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	
+    <topic name="provocation">
+        <category>
+            <pattern>ASK A QUESTION</pattern>
+            <template>
+                <random>
+                    <li>Vous moquez-vous ?</li>
+                    <li>Et qu'avez vous fait dans le monde ?</li>
+                    <li>Quels crimes ai-je fait ?</li>
+                    <li>Que t'importe-t-il si je fais bien ou mal ?</li>
+                    <li>Laisse-moi suivre en tout cette ardeur qui m'anime ;  j'obéis à mes sens, il est vrai, mais quel crime ?</li>
+                    <li>Dois-je suivre ici ton avis ou le mien ?</li>
+                    <li>Pourquoi me marier ?</li>
+                    <li>Je fais ce que je veux, dois-je t'en rendre compte ?</li>
+                    <li>As-tu l'esprit perdu ?</li>
+                </random>
+            </template>
+        </category>
+    </topic>
+    
+
+    
+</aiml>

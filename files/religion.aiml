@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    <category>
+        <pattern># RELIGION #</pattern>
+        <template>
+            <think><set name="topic">religion</set></think>
+            <random>
+                <li>Je veux savoir un peu vos pensées à fonds ; est-il possible que vous ne croyez point du tout au ciel ?</li>
+                <li>Doutez-vous du pouvoir de nos dieux ?</li>
+                <li>Eh quoi, toujours le ciel ?</li>
+                <li>Quel diable de style prenez-vous là ?</li>
+                <li>Que parlez-vous de foi ?</li>
+            </random>
+        </template>
+    </category>
+    <category><pattern># DIEU #</pattern><template><srai># RELIGION #</srai></template></category>
+    <category><pattern># DIEUX #</pattern><template><srai># RELIGION #</srai></template></category>
+    <category><pattern># FOI #</pattern><template><srai># RELIGION #</srai></template></category>
+    
+    <topic name="religion">
+        <category>
+            <pattern>*</pattern>
+            <template>
+                <think><set name="topic">religion2</set></think>
+                on s'en fout
+            </template>
+        </category>
+    </topic>
+    
+    <topic name="religion2">
+        <category>
+            <pattern>*</pattern>
+            <template>
+                <think><set name="topic"></set></think>
+                vraiment la religion c'est pas mon truc
+            </template>
+        </category>
+    </topic>
+    
+    <!-- ciel -->
+</aiml>
